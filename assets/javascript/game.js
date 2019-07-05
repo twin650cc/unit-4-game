@@ -29,8 +29,16 @@ $(".gomamon").appendTo("#gomamonDestination");
 //move character from enemies available to attack to the defender section
 
 $("#agumonDestination").on("click", function(){
-    
-
+    $(".agumon").appendTo("#agumonDestinationDefender")
+})
+$("#gabumonDestination").on("click", function(){
+    $(".gabumon").appendTo("#gabumonDestinationDefender")
+})
+$("#gomamonDestination").on("click", function(){
+    $(".gomamon").appendTo("#gomamonDestinationDefender")
+})
+$("#patamonDestination").on("click", function(){
+    $(".patamon").appendTo("#patamonDestinationDefender")
 })
 
 
