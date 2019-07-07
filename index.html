@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src=assets/javascript/game.js></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Game on!</title>
   </head>
   <body>
@@ -23,17 +24,18 @@
         
         <div  class="container">
                 <div class="row">
-                    <div class="col-3">
-                        <img src="assets/images/agumon.png" alt="agumonPic" class="agumon" width="100%">
+                    <div class="col-3 agumon">Agumon
+                        <img src="assets/images/agumon.png" alt="agumonPic" class="" width="100%">
                     </div>
-                    <div class="col-3">
-                        <img src="assets/images/gabumon.jpeg" alt="gabumonPic" class="gabumon" width="100%">
+                    <div class="col-3 gabumon">Gabumon
+                        <img src="assets/images/gabumon.jpeg" alt="gabumonPic" class="" width="100%">
                     </div>
-                    <div class="col-3">
-                        <img src="assets/images/gomamon.jpeg" alt="gomamonPic" class="gomamon" width="100%">
+                    <div class="col-3 gomamon">Gomamon
+                        <img src="assets/images/gomamon.jpeg" alt="gomamonPic" class="" width="100%">
                     </div>
-                    <div class="col-3">
-                        <img src="assets/images/patamon.jpeg" alt="patamonPic" class="patamon" width="100%">
+                    <div class="col-3 patamon">Patamon
+                        <img src="assets/images/patamon.jpeg" alt="patamonPic" class="" width="100%">
+                        <span class="patamonlifepoints">0</span>
                     </div>
         </div>
         
@@ -48,7 +50,6 @@
         <div  class="container" id="container2">
             <div class="row">
                 <div class="col-3 displayInline" id="agumonDestination"></div>
-                
                 <div class="col-3 displayInline" id="gabumonDestination"></div>
                 <div class="col-3 displayInline" id="gomamonDestination"></div>
                 <div class="col-3 displayInline" id="patamonDestination"></div>

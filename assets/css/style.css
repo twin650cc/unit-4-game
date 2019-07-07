@@ -1,9 +1,4 @@
-#agumonDestination {
-display: inline-block;
-}
-#gabumonDestination {
-    display: inline-block;
-    }
-.displayInline{
-    display: inline-block;
+body {
+background-image: url('../images/arena.png');
+color: aqua;
 }

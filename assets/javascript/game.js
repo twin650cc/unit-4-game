@@ -3,9 +3,9 @@ $(document).ready(function() {
 
     //move characters from starting position to enemy position after selecting character
 $(".agumon").on("click", function(){
-$(".gabumon").appendTo("#gabumonDestination").css('display','inline-block');    
-$(".gomamon").appendTo("#gomamonDestination").css('display','inline-block');
-$(".patamon").appendTo("#patamonDestination").css('display','inline-block');
+$(".gabumon").appendTo("#gabumonDestination").css('display','inline');    
+$(".gomamon").appendTo("#gomamonDestination").css('display','inline');
+$(".patamon").appendTo("#patamonDestination").css('display','inline');
 })
 
 $(".gabumon").on("click", function(){
@@ -15,15 +15,15 @@ $(".patamon").appendTo("#patamonDestination").css('display', 'inline');
 })
 
 $(".gomamon").on("click", function(){
-$(".agumon").appendTo("#agumonDestination");
-$(".gabumon").appendTo("#gabumonDestination");
-$(".patamon").appendTo("#patamonDestination");
+$(".agumon").appendTo("#agumonDestination").css('display', 'inline');
+$(".gabumon").appendTo("#gabumonDestination").css('display', 'inline');
+$(".patamon").appendTo("#patamonDestination").css('display', 'inline');
 })
 
 $(".patamon").on("click", function(){
-$(".agumon").appendTo("#agumonDestination");
-$(".gabumon").appendTo("#gabumonDestination");    
-$(".gomamon").appendTo("#gomamonDestination");
+$(".agumon").appendTo("#agumonDestination").css('display', 'inline');
+$(".gabumon").appendTo("#gabumonDestination").css('display', 'inline');    
+$(".gomamon").appendTo("#gomamonDestination").css('display', 'inline');
 })
 
 //move character from enemies available to attack to the defender section
@@ -42,6 +42,22 @@ $("#patamonDestination").on("click", function(){
 })
 
 
+
+//lifepoints
+
+var agumonlp = 120
+var gabumonlp = 150
+var gomamonlp = 110
+var patamonlp = 200
+
+function lifepoints()
+{
+$("patamonlifepoints").html("<h1>patamonlp</h1>")
+}
+
+
+
+lifepoints()
 
 
 
