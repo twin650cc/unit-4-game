@@ -26,12 +26,15 @@
                 <div class="row">
                     <div class="col-3 agumon">Agumon
                         <img src="assets/images/agumon.png" alt="agumonPic" class="" width="100%">
+                        <span id="agumonlifepoints">0</span>
                     </div>
                     <div class="col-3 gabumon">Gabumon
                         <img src="assets/images/gabumon.jpeg" alt="gabumonPic" class="" width="100%">
+                        <span class="gabumonlifepoints">0</span>
                     </div>
                     <div class="col-3 gomamon">Gomamon
                         <img src="assets/images/gomamon.jpeg" alt="gomamonPic" class="" width="100%">
+                        <span class="gomamonlifepoints">0</span>
                     </div>
                     <div class="col-3 patamon">Patamon
                         <img src="assets/images/patamon.jpeg" alt="patamonPic" class="" width="100%">
@@ -63,7 +66,7 @@
                         </div>
             </div>
 
-                <button type="button" class="btn btn-danger">Attack</button>
+                <button type="button" class="btn btn-danger" id="attackbutton" onclick="attack()">Attack</button>
 
 
                 
